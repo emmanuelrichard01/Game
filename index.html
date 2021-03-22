@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Rock | Paper | Scissors</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Rock Paper Scissors</h1>
-    </header>
-    <!-- score-board -->
-    <div class="score-board">
-      <div id="user-label" class="badge">user</div>
-      <div id="comp-label" class="badge">comp</div>
-      <span id="user-score">0</span>:<span id="comp-score">0</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Rock | Paper | Scissors</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Rock Paper Scissors</h1>
+  </header>
+  <!-- score-board -->
+  <div class="score-board">
+    <div id="user-label" class="badge">user</div>
+    <div id="comp-label" class="badge">comp</div>
+    <span id="user-score">0</span>:<span id="comp-score">0</span>
+  </div>
+  <!-- result -->
+  <div class="message">
+    <p>Please Select any Option.</p>
+  </div>
+  <!-- chioces -->
+  <div class="chioces">
+    <div class="chioce" id="r">
+      <h3 id="rock">🧱</h3>
     </div>
-    <!-- result -->
-    <div class="message">
-      <p>Paper covers rock. You Win!!!</p>
+    <div class="chioce" id="p">
+      <h3 id="paper">📄</h3>
     </div>
-    <!-- chioces -->
-    <div class="chioces">
-      <div class="chioce" id="r">
-        <h3 id="rock">🧱</h3>
-      </div>
-      <div class="chioce" id="p">
-        <h3 id="paper">📄</h3>
-      </div>
-      <div class="chioce" id="s">
-        <h3 id="scissors">✂</h3>
-      </div>
+    <div class="chioce" id="s">
+      <h3 id="scissors">✂</h3>
     </div>
-    <!-- action-message -->
-    <p class="action-message">Make Your Move... 😴</p>
-    <script src="/app.js"></script>
-    <footer>
-      <p>Created with 💖 by Emmanuel Richard😎.</p>
-    </footer>
-  </body>
+  </div>
+  <!-- action-message -->
+  <p class="action-message">Make Your Move... 😴</p>
+  <script src="./app.js"></script>
+  <footer>
+    <p>Created with 💖 by Emmanuel Richard😎.</p>
+  </footer>
+</body>
+
 </html>
